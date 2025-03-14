@@ -16,4 +16,10 @@ public class CalculatorServiceTest {
         int result = calculatorService.add(2, 3);
         assertEquals(5, result);
     }
+
+    @Test
+    public void testRest(){
+        int result =  calculatorService.rest(3, 2);
+        assertEquals(1, result);
+    }
 }
